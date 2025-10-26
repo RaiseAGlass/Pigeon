@@ -2,33 +2,37 @@
             font-family: Arial, sans-serif;
             margin: 10px;
             padding: 10px;
-            
-            background-color: #f0f0f0;
+            background:"";
+            background-image: url('./images/MyLogin.jpg'); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+ /*           background-color: #6769f8;*/
         }
-        
-        h1 {
-            font-size: 24px;
-            color: lab(50.38% 72.24 53.59);
-        }
+
         p {
-            font-size: 18px;
+            font-size: 10px;
             color: #666;
         }
-        img {
-            max-width: 100%;
+
+
+    img {            max-width: 100%;
             height: auto;
             border: 2px solid #ccc;
             border-radius: 10px;
         }   
 
-        .highlight {
-            background-color: yellow;
-            font-weight: bold;
-        }  
+   
+    #user{
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+            display: block;
+            width: 120px;
+        }
 
-    Button{
-    
-        background-color: #52e05e; /* Green */
+    button {
+            background-color: #52e05e; /* Green */
             border: none;
             color: rgb(41, 34, 34);
             padding: 10px 25px 10px 25px;
