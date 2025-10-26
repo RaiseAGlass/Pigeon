@@ -1,4 +1,4 @@
-    body {
+ body {
             font-family: Arial, sans-serif;
             margin: 20px;
             padding: 20px;
@@ -26,9 +26,9 @@
         }  
         
         button {
-            background-color: #4c664e; /* Green */
+            background-color: #52e05e; /* Green */
             border: none;
-            color: rgb(110, 24, 24);
+            color: rgb(41, 34, 34);
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
@@ -38,3 +38,4 @@
             cursor: pointer;
             border-radius: 12px;
         } 
+
