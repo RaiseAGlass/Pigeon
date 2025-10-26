@@ -14,22 +14,22 @@
     <img src="./images/Pigeon1.webp" alt="Pigeon Not found Image" />
 
     <br>
-    <a href="./Search.html" >
-      <button class = SearchButton > 查找</button>
-    </a>
+  
+  <div class="container">
 
-    <a href="./DataEntry.html"  >
-      <button class = NewPigeonButton >录入</button>
+    <label for="userType"><b>用户类型</b></label>
+    <select id="user" name="userType">
+      <option value="staff">饲养员</option>
+      <option value="admin">管理员</option>
+      <option value="visitor">访客</option>
+    </select>
+    <label for="psw"><b>密码</b></label>
+    <input type="password" placeholder="请输入密码" name="psw" required>
+    <a href="./Main.html"  >
+      <button id = 'id01' type="submit">Login</button>
     </a>
-    
-    <a href="./DataUpdate.html"  >
-      <button class = NewPigeonButton >修改</button>
-    </a>
+   
+  </div>
 
-    
-    <a href="./DataBrowse.html"  >
-      <button class = NewPigeonButton >浏览</button>
-    </a>
-
-  </body>
+</body>
 </html>

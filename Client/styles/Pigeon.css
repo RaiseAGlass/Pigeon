@@ -1,7 +1,8 @@
     body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
+            margin: 10px;
+            padding: 10px;
+            
             background-color: #f0f0f0;
         }
         
@@ -24,12 +25,22 @@
             background-color: yellow;
             font-weight: bold;
         }  
-        
+
+        #user{
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+            display: block;
+            width: 120px;
+            
+
+        }
+
         button {
             background-color: #52e05e; /* Green */
             border: none;
             color: rgb(41, 34, 34);
-            padding: 15px 32px;
+            padding: 10px 25px 10px 25px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
@@ -37,4 +48,5 @@
             margin: 4px 2px;
             cursor: pointer;
             border-radius: 12px;
+
         } 
