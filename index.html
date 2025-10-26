@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pigeons</title>
-    <script src="./script/Pigeon.js" defer></script> 
+    <!--<script src="./script/Pigeon.js" defer></script> -->
 
-    <link   rel="stylesheet" href="./styles/Pigeon.css">
+    <link   rel="stylesheet" href="./styles/Login.css">
 </head>
-<body>
+<body >
     <h1>Pigeon Tracker 鸽群管理</h1>
     <p>A website by Bill Wu </p>
-    <img src="./images/Pigeon1.webp" alt="Pigeon Not found Image" />
+    
+    <!-- <img src="./images/Login.png" alt="Pigeon Not found Image" /> -->
+
 
     <br>
   
   <div class="container">
 
-    <label for="userType"><b>用户类型</b></label>
+    <label for="userType"><b>请选择</b></label>
     <select id="user" name="userType">
       <option value="staff">饲养员</option>
       <option value="admin">管理员</option>
       <option value="visitor">访客</option>
     </select>
-    <label for="psw"><b>密码</b></label>
+    <label for="psw"><b>密码</b></label><br>
     <input type="password" placeholder="请输入密码" name="psw" required>
     <a href="./Main.html"  >
       <button id = 'id01' type="submit">Login</button>
@@ -32,4 +34,3 @@
   </div>
 
 </body>
-</html>
