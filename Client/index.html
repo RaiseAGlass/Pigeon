@@ -5,33 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pigeons</title>
     <!--<script src="./script/Pigeon.js" defer></script> -->
-
     <link   rel="stylesheet" href="./styles/Login.css">
 </head>
-<body >
-    <h1>Pigeon Tracker 鸽群管理</h1>
-    <p>A website by Bill Wu </p>
-    
-    <!-- <img src="./images/Login.png" alt="Pigeon Not found Image" /> -->
 
+<body>
+  <h1>Pigeon Tracker 鸽群管理</h1>
+  <p>A website by Bill Wu </p>
 
-    <br>
-  
-  <div class="container">
-
-    <label for="userType"><b>请选择</b></label>
-    <select id="user" name="userType">
+  <br>
+  <br>
+  <br>
+ 
+  <label class="la" for="userType" width=50px><b>请选择</b></label>
+    <select id="user" name="userType" class="la">
       <option value="staff">饲养员</option>
       <option value="admin">管理员</option>
       <option value="visitor">访客</option>
     </select>
-    <label for="psw"><b>密码</b></label><br>
-    <input type="password" placeholder="请输入密码" name="psw" required>
-    <a href="./Main.html"  >
-      <button id = 'id01' type="submit">Login</button>
-    </a>
-   
-  </div>
 
-</body>
+    <label class="la" for="psw"><b>密码</b></label>
+    <input type="password" placeholder="请输入密码" name="psw" required >
+    <br>
+    <br>
+    
+    <a href="./Main.html"  >
+      <button id = 'id01' type="submit" >Login</button>
+    </a>
+ 
+
+  </body>
+
 </html>
