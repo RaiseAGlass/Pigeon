@@ -1,5 +1,5 @@
 
-        *{
+  *{
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
@@ -33,4 +33,30 @@
             }
             .la{
                 border:none;
-            }  
+            }
+            
+            input{
+                margin: 5px 0px;
+                height: 20px;
+                padding: 5px;
+            }
+            #user{
+                font-size: 14px;
+                color: #333;
+                border: solid 1px rgb(4, 6, 7);
+            }
+
+            button{
+                
+                height: 30px;
+                width: 70px;
+                margin: 5px 0px;
+                background-color: rgb(5, 110, 49);
+                border: none;
+                border-radius: 8px;
+                color: #f8f4f4;
+            }
+            button:hover{
+                background-color: #333;
+                color: skyblue;
+            }
