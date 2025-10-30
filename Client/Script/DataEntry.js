@@ -12,7 +12,8 @@ document.getElementById('imageUpload').addEventListener('change', function(event
                 reader.onload = function(e) {
                     const img = document.createElement('img');
                     img.src = e.target.result;
-                    img.style.maxWidth = '100px'; // Example styling
+                    img.style.maxWidth = '200px'; // for preview
+                    img.style.maxHeight = '150px'; // Example styling
                     img.style.margin = '5px';
                     imagePreview.appendChild(img);
                 };
@@ -22,3 +23,4 @@ document.getElementById('imageUpload').addEventListener('change', function(event
         }
     }
 });
+
