@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry</title>
+    <link   rel="stylesheet" href="./styles/DataEntry.css">
+</head>
+<body>
+    <div> 
+
+        <label for="legBand">脚环号:<br>
+            <input type="text" id="legBand" name="legBand" required> 
+        </label>
+        <label for="LoadForUpdate">
+            <input  type="button" id="LoadForUpdate" name="LoadForUpdate" value="加载">
+        </label>
+        <br>
+   
+        <label for="pigeonName">鸽名:<br>
+            <input type="text" id="pigeonName" name="pigeonName" required>
+        </label>
+        <br>
+
+     
+        <label for="birthday">出生日期:<br>
+            <input type="date" id="birthday" name="birthday" required>
+        </label>
+        <br>         
+
+        <label for="gender">性别: 雄鸽</label>
+        <input type="radio" id="gender" name="gender" value="male" required checked>
+        <label for="gender">雌鸽</label>
+        <input type="radio" id="gender" name="gender" value="female" required><br>
+
+        <label>
+            注释: <br> <Textarea placeholder="请输入注释..." name="note"></Textarea>
+        </label>
+
+        <br>
+        <label for="imageUpload">选择图片:</label>
+            <input type="file" id="imageUpload" accept="image/*" multiple>
+            <div id="imagePreview"></div>
+            <br>
+         
+
+        <button id="SaveButton">保存</button>
+        <script>
+            const button = document.getElementById("SaveButton");
+            button.addEventListener("click", function() {
+            alert("Pigeon data has been saved!");
+            });
+        </script>
+        
+        <button  id="ReturnButton">返回</button>
+        <script>
+            const buttonReturn = document.getElementById("ReturnButton");
+            buttonReturn.addEventListener("click", function() {
+            window.location.href = "Main.html";
+            });
+        </script>
+    </div>
+    <script src="Script/DataEntry.js"></script>
+</body>
+</html>
