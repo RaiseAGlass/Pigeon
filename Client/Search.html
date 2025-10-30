@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry</title>
+    <link   rel="stylesheet" href="./styles/Search.css">
+</head>
+<body>
+    <h3>数据检索</h3>
+    <div class="b1"> 
+        <label class="N2">请输入脚环号</label><br>
+        <input type="text" id="legBand" name="legBand" required> 
+        <br>
+        <br>
+        <button id="SearchButton">OK</button>
+        <script>
+            const button = document.getElementById("SearchButton");
+            button.addEventListener("click", function() {
+            alert("没有找到相关数据！");
+
+            });
+        </script>
+
+        <button  id="ReturnButton">返回</button>
+        <script>
+            const buttonReturn = document.getElementById("ReturnButton");
+            buttonReturn.addEventListener("click", function() {
+            window.location.href = "Main.html";
+            });
+        </script>
+    </div>
+    
+        <script src="/js/DataEntry.js"></script>
+</body>
+</html>
