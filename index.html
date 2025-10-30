@@ -1,35 +1,31 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pigeons</title>
-    <!--<script src="./script/Pigeon.js" defer></script> -->
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./styles/Login.css">
+    </head>
+    <body>
+      
+        <div class="container">
+          <h1>Pigeon Tracker 鸽群管理</h1>
+          <p>A website by Bill Wu </p>
 
-    <link   rel="stylesheet" href="./Client/styles/Login.css">
-</head>
-<body >
+          <input class="la"type="text"  placeholder="请选择:">
+          <select id="user" name="userType" class="la">
+            <option value="staff">饲养员</option>
+            <option value="admin">管理员</option>
+            <option value="visitor">访客</option>
+          </select>
+          <input type="password" placeholder="请输入密码:">
+          <a href="./Main.html"  >
+             <button id = 'id01' type="submit" > Login </button>
+          </a>
 
-  <div class="container">
-    <h1>Pigeon Tracker 鸽群管理</h1>
-    <p>A website by Bill Wu </p>
-    <br>
-    <br>
-    <label for="userType"><b>请选择</b></label>
-    <select id="user" name="userType">
-      <option value="staff">饲养员</option>
-      <option value="admin">管理员</option>
-      <option value="visitor">访客</option>
-    </select>
-    <label for="psw"><b>密码</b></label><br>
-    <input type="password" placeholder="请输入密码" name="psw" required>
-    <a href="./Client/Main.html"  >
-      <button id = 'id01' type="submit">Login</button>
-    </a>
-   
-  </div>
+        </div>
+    </body>
+</html>
 
-</body>
 
 
 
